@@ -16,6 +16,7 @@
           openssl
         ];
         shellHook = with pkgs; ''
+          export PATH="$PWD/node_modules/.bin/:$PATH"
           export PRISMA_MIGRATION_ENGINE_BINARY="${prisma-engines}/bin/migration-engine"
           export PRISMA_QUERY_ENGINE_BINARY="${prisma-engines}/bin/query-engine"
           export PRISMA_QUERY_ENGINE_LIBRARY="${prisma-engines}/lib/libquery_engine.node"
