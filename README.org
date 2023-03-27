@@ -1,0 +1,11 @@
+
+* TODO Information
+* Tasks
+** TODO Automatic deploy with Github Actions
+** TODO Automatic Vercel setup with Terraform or Pulumi
+*** TODO See if I can setup Planetscale with it as well
+** TODO Auth
+** TODO Logging
+** TODO Analytic
+** TODO UI
+*** TODO Tagging

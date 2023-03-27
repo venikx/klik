@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import invariant from "tiny-invariant";
 import { prisma } from "../../../db/client";
 
 export default async function handler(
