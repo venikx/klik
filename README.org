@@ -1,7 +1,8 @@
 
 * TODO Information
 * Tasks
-** TODO Automatic deploy with Github Actions
+** KILL Automatic deploy with Github Actions
+CLOSED: [2023-03-27 Mon 23:18]
 ** TODO Automatic Vercel setup with Terraform or Pulumi
 *** TODO See if I can setup Planetscale with it as well
 ** TODO Auth
